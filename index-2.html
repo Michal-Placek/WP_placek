@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Anketa</title>
+	
+ </head>
+       <body>
+            <form action="/action_page.php">
+               <label><b>Anketa</b></label><br />
+                
+                <fieldset>
+                   <legend>Domácí mazlíčci</legend> 
+                    
+                      <input type="radio" name="domaci_mazlici" value="pes"/>Pes <br />
+                      <input type="radio" name="domaci_mazlici" value="kocka"/>Kočka <br />
+                      <input type="radio" name="domaci_mazlici" value="kralik"/>Králík <br />
+                      <input type="radio" name="domaci_mazlici" value="morce"/>Morče <br />
+                      <input type="radio" name="domaci_mazlici" value="papousek"/>Papoušek <br />
+                </fieldset>
+                <fieldset>
+                    <legend>Osobní informace</legend>
+
+                      <input type="range" name="osobni_informace" vlue="jak_casto_varite"/>Jak často vaříte? <br />
+                      <input type="number" name="osobni_informace" vlue="kolik_mate_deti"/>Kolik máte dětí? <br />
+                      <input name="osobni_informace" placeholder="xx/yy/xxyy"/>Kdy jste se narodil/a? <br />
+                </fieldset>
+                    <br />
+                    <br />
+                    <br />
+                    
+                        <label for="jmeno">Zadej jméno:</label>&nbsp; <input type="text" id="jemno"/><br />
+                        <label for="email">Zadej e mail:</label>&nbsp;&nbsp; <input type="text" id="email"/><br />
+                        <label for="vek">Zadej Pohlaví:</label> <select name="vek">
+                                    <option value="N"></option>
+                                    <option value="m">Muž</option>
+                                    <option value="z">Žena</option>
+                                    <option value="j">Jiné</option>
+                        </select>
+                    <br />
+                      <input type="checkbox" name="udaje"/>Souhlasím se zpracováním osobních údajů <br />
+                    
+               
+               <input type="submit" value="Odeslat"/>
+            </form>
+       </body>
+       
+</html>
