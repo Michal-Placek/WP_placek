@@ -30,7 +30,7 @@ $birthday = "22.7.2002"
   <title>Document</title>
  </head>
  <body>
- <h1><?php echo $firstname;?><?php echo $lastname;?></h1>
+ <h1><?php echo $firstname;?> <?php echo $lastname;?></h1>
 
  <li>Pohlaví</li>
  <?php echo $gender;?>
