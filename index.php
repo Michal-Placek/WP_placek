@@ -10,7 +10,8 @@ $phone = "792307704";
 $hobbies = "Motocross, Stavění počítačů";
 $birthday = "11.11.2003"
 */
-$name = "Jan Hladík";
+$firstname = "Jan";
+$lastname = "Hladík";
 $gender = "Muž";
 $school = "4. Základní škola Kolín";
 $email = "jan.hladik@student.ossp.cz";
